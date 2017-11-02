@@ -3,5 +3,8 @@
 welcome
 =======
 
-Source files for the "onboarding" website. Go to http://yeolab.github.io/onboarding/ 
-to see the website
+Source files for the "onboarding" for [Center for epigenomics @ UCSD](epigenomics.ucsd.edu). 
+
+Based on [Yeolab's experience](http://yeolab.github.io/onboarding/). 
+
+
