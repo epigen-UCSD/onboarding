@@ -10,16 +10,16 @@
 
 
 ## Share file via Personal links 
-1. find www folder in your home folder. This is the web folder linked to address [http://epigenomics.sdsc.edu/your_user_id/]
+1. find `www` folder in your home folder. This is the web folder linked to address [http://epigenomics.sdsc.edu/your_user_id/]
 2. put a blank index inside it; `> ${HOME}/www/index.html ` 
 3. allow nginx to access: `chmod 0755 /home/$USER/www`
-4. To share a folder in our data folder: `ln -s ${HOME}/data/folder_for_share ~/www/`; it should be able to seen at [http://epigenomics.sdsc.edu/your_user_id/folder_for_share]
+4. To share a folder in our data folder: `ln -s ${HOME}/data/folder_for_share ~/www/`; it should be able to be seen at [http://epigenomics.sdsc.edu/your_user_id/folder_for_share]
 
 ## Create users 
 
 ``` shell
-adduser j3gu
-passwd j3gu
-usermod -g epigen-group j3gu
+adduser username
+passwd usrname
+usermod -g gname username
 ```
 
