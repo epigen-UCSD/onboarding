@@ -7,7 +7,9 @@
 
 
 ## Share file via sFTP 
-
+1. mv files into a folder (e.g. `xx_for_share`) under `/projects/ps-epigen/share/`
+2. `sudo mount -o bind /projects/ps-epigen/share/xx_for_share /home/share_sftp/uid/xx_for_share` 
+3. user login into `sftp uid@epigenomics.sdsc.edu` then can see the folder `xx_for_share`
 
 ## Share file via Personal links 
 1. find `www` folder in your home folder. This is the web folder linked to address [http://epigenomics.sdsc.edu/your_user_id/]
